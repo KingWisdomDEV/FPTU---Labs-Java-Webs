@@ -1,0 +1,190 @@
+body{
+    background-color: #E7E7E7;
+}
+.uk-container-center{
+    background: url("../images/bg.jpg") repeat;
+    height: auto;
+    max-width: 886px;
+}
+.uk-container > .header > *{
+    padding: 0 90px 0 90px;
+}
+/* ====REGION HEADER START====  */
+.header .preheader{
+    background: url("/digitalnews.com/view/images/preheader.jpg") no-repeat;
+    height: 71px;
+}
+.header .main-header{
+    background: url("/digitalnews.com/view/images/header.jpg") no-repeat;
+    height: 78px;
+}
+.header .main-header #logo >a{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+}
+.header .menu{
+    background: url("/digitalnews.com/view/images/menu.jpg") no-repeat;
+    height: 32px;
+}
+.header-nav .main-menu > li{
+    display: inline-block;
+}
+.header-nav .main-menu > li > a{
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.header-nav .main-menu > li:hover > a{
+    color: #000;
+}
+/* ====END REGION HEADER==== */
+
+/* ====REGION MAIN-CONTENT====*/
+.main-content{
+    padding-top: 20px;
+}
+.main-content .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #42554e;
+    margin-bottom: 10px;
+}
+.content{
+    float: left;
+    width: 70%;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;
+    padding: 0 20px 0 90px;
+}
+.article .description{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0 ;
+}
+.article .description > p{
+    font-size: 13px;
+}
+.article .main-img >img{
+    width: 80%;
+}
+.article .signature{
+    text-align: right;
+    padding-top: 5px;
+}
+.article .signature > *{
+    display: inline-block;
+
+}
+.article .signature span{
+    font-size: 10px;
+    color: #42554e;
+}
+
+.right-sidebar{
+    float: left;
+    width: 30%;
+    padding: 0 90px 0 10px;
+}
+.right-sidebar > *{
+    margin-bottom: 10px;
+}
+.right-sidebar .recent-news .description > a{
+    font-size: 12px;
+}
+.right-sidebar .recent-news .description > a:hover{
+    text-decoration: underline;
+}
+.right-sidebar .search-news .search-tile > *{
+    display: inline-block;
+}
+.right-sidebar .search-news .search-tile .keyword{
+    border: 1px dashed #000000;
+    width: 60%;
+}
+.right-sidebar .search-news .search-tile button{
+    width: 20%;
+    background-color: #ffffff;
+    border: none;
+}
+.right-sidebar .search-news .search-tile button:hover{
+    background-color: #42554e;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.right-sidebar .top-news .recent-articles > li{
+    margin-bottom: 20px;
+}
+.right-sidebar .top-news .recent-articles a{
+    text-decoration: underline;
+    color: #42554e;
+    font-size: 13px;
+}
+.right-sidebar .top-news .recent-articles a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+/* ADDITIONAL STYLE FOR DETAIL PAGE*/
+.main-content .result-page.content .title span{
+    font-size: 10px;
+    float: right;
+    background-color: #42554e;
+    color: #ffffff;
+    font-weight: normal;
+    padding: 5px;
+    border-radius: 20px;
+}
+.main-content .result-page .article .title > a{
+    font-size: 15px;
+    color: #42554e;
+}
+.main-content .result-page .article .title:hover > a{
+    color: #000;
+}
+.main-content .result-page .article .main-img {
+    width: 40%;
+    float: left;
+}
+.main-content .result-page .article .main-img img{
+    width: 100%;
+}
+.main-content .result-page .article .description {
+    width: 60%;
+    float: left;
+}
+.content.result-page .article .description{
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+/* ====END REGION MAIN-CONTENT==== */
+
+/* ====REGION PAGINATION START==== */
+.pagination {
+    text-align: center;
+}
+.pagination a {
+    color: black;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+/* ====END REGION PAGINATION-==== */
+
+/* ====REGION FOOTER START==== */
+.footer{
+    background: url("/digitalnews.com/view/images/footer.jpg") no-repeat;
+    height: 78px;
+}
+/* ====END REGION FOOTER==== */

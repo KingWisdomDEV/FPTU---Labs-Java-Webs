@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 8, 2021, 1:32:19 PM
+    Author     : hoang
+*/
+.footer-wrapper .footer-page-counterr {
+    float: right;
+    margin: 0 0 16px;
+    *zoom: 1;
+}
+.footer-wrapper .footer-page-counterr:before, .footer-wrapper .footer-page-counterr:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.footer-wrapper .footer-page-counterr:after {
+    clear: both;
+}
+
+.footer-wrapper .footer-page-counterr:before, .footer-wrapper .footer-page-counterr:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.footer-wrapper .footer-page-counterr .footer-page-counterr-item {
+    border: solid 0 #000;
+    background: #fff;
+    font-size: 14.4px;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    line-height: 14.4px;
+    padding: 2px 2px 1px;
+    margin: 3px 2px 0 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #595959;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    width: 10px;
+    position: relative;
+}
+.footer-wrapper .footer-page-counterr .footer-page-counterr-item:before {
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    margin-top: -1px;
+    background: rgba(0,0,0,.25);
+    width: 100%;
+}
+.content-wrapper .pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+.fancybox-margin{
+    margin-right:17px;
+}
+
+
+.photo-album .slideshow{
+    background-color: #000;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+#btn-play{
+    position: absolute;
+    top: 37%;
+    right: 42%;
+    width: 100px;
+    height: 100px;
+    border: 2px white solid;
+    opacity: 0.9;
+    border-radius: 20%;
+}
+#btn-pause{
+    position: absolute;
+    top: 84%;
+    left: 2%;
+    width: 50px;
+    height: 50px;
+    border: 2px white solid;
+    opacity: 0.9;
+    border-radius: 20%;
+}
